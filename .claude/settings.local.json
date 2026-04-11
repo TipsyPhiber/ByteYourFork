@@ -13,7 +13,8 @@
       "Bash(/run/host/usr/bin/pdftotext \"/home/bhawk/ByteYourFork/Sous Chef Specification.pdf\" -)",
       "Bash(/snap/cups/1170/usr/bin/pdftotext \"/home/bhawk/ByteYourFork/Sous Chef Specification.pdf\" -)",
       "Bash(LD_LIBRARY_PATH=/snap/gnome-42-2204/247/usr/lib/x86_64-linux-gnu /snap/gnome-42-2204/247/usr/bin/pdftotext \"/home/bhawk/ByteYourFork/Sous Chef Specification.pdf\" -)",
-      "Bash(npm install:*)"
+      "Bash(npm install:*)",
+      "Bash(PGPASSWORD=bruceisl33t@! /usr/bin/psql:*)"
     ]
   }
 }
