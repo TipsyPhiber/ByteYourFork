@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pdftotext /home/bhawk/ByteYourFork/SDD_ByteYourFork.pdf -)",
+      "Bash(python3 -c \"import pdfplumber\")",
+      "Bash(node -e \"require\\('puppeteer'\\)\")",
+      "Bash(node:*)"
+    ]
+  }
+}
