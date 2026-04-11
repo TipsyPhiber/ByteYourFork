@@ -3,7 +3,6 @@ const router = express.Router();
 const pool = require('../db');
 const { authenticateToken } = require('../middleware/auth');
 
-// Add this GET route to handle the recipe feed retrieval
 router.get('/', async (req, res) => {
   try {
     const result = await pool.query('SELECT * FROM recipes ORDER BY creation_date DESC');
@@ -13,7 +12,6 @@ router.get('/', async (req, res) => {
   }
 });
 
-// Keep your existing POST logic below it
 router.post('/', authenticateToken, async (req, res) => {
   const { title, ttc, ingredients, steps } = req.body;
   const client = await pool.connect();
