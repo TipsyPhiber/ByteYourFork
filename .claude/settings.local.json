@@ -5,7 +5,13 @@
       "Bash(npm install *)",
       "Bash(node --check server.js)",
       "Bash(node --check routes/auth.js)",
-      "Bash(node --check routes/recipes.js)"
+      "Bash(node --check routes/recipes.js)",
+      "Bash(git -C /home/bhawk/ByteYourFork status)",
+      "Bash(git -C /home/bhawk/ByteYourFork log --oneline -3)",
+      "Bash(npm uninstall *)",
+      "Bash(node --check scraper.js)",
+      "Bash(node --check utils/titleCase.js)",
+      "Bash(git -C /home/bhawk/ByteYourFork add backend/package.json backend/package-lock.json backend/utils/titleCase.js backend/scraper.js backend/routes/recipes.js)"
     ]
   }
 }
