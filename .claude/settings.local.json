@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(wc:*)"
+      "Bash(wc:*)",
+      "Bash(npm install *)",
+      "Bash(node --check server.js)",
+      "Bash(node --check routes/auth.js)",
+      "Bash(node --check routes/recipes.js)"
     ]
   }
 }
